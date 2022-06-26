@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/Header';
 import BarSide from './components/SideBar';
+import Input from './pages/Input';
 import GlobalStyles from './styles/GlobalStyles';
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
     <>
       <Header />
       <BarSide />
+      <Input />
       <GlobalStyles />
     </>
   );
