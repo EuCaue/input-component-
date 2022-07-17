@@ -16,9 +16,11 @@ export default function Input() {
       <InputBox placeholder="Placeholder" />
 
       <InputBoxText className="hover">&hover</InputBoxText>
+      <InputBoxLabel className="hover">Label</InputBoxLabel>
       <InputBoxHover placeholder="Placeholder" />
 
       <InputBoxText className="focus">:&focus</InputBoxText>
+      <InputBoxLabel className="focus">Label</InputBoxLabel>
       <InputBoxFocus placeholder="Placeholder" />
     </InputBoxText>
   );

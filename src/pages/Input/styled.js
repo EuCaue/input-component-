@@ -80,6 +80,29 @@ color: #828282;
 
 }
 
+.focus {
+  /* &:focus */
+
+position: absolute;
+width: 42px;
+height: 12px;
+left: 845px;
+top: 131px;
+
+font-family: 'Ubuntu Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+/* identical to box height */
+
+/* Gray 3 */
+color: #828282;
+
+
+}
+
 `;
 
 export const InputBoxLabel = styled.label`
@@ -99,6 +122,43 @@ line-height: 17px;
 
 /* Gray 1 */
 color: #333333;
+
+&.hover {
+  /* Label */
+
+position: absolute;
+width: 31px;
+height: 17px;
+left: 587px;
+top: 159px;
+
+font-family: 'Noto Sans JP';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+
+/* Gray 1 */
+color: #333333;
+}
+
+&.focus {
+  /* Label */
+
+position: absolute;
+width: 31px;
+height: 17px;
+left: 845px;
+top: 159px;
+
+font-family: 'Noto Sans JP';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+
+color: #2962FF;
+}
 `;
 
 export const InputBoxHover = styled.input`
